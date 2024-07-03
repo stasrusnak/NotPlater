@@ -125,6 +125,11 @@ function NotPlater:PrepareFrame(frame)
 
 
 
+				-- if NotPlater:IsTarget(self) then
+				-- 	self:SetAlpha(1)
+				-- else
+
+
 			if NotPlater:IsTarget(self) then
 				self:SetAlpha(1)
 			else
